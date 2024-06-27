@@ -1,0 +1,608 @@
+/*PADRONIZAÇÃO DO SITE*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100%;
+}
+
+p{
+    line-height: 0px;
+    margin-left: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+/*PADRONIZAÇÃO DO SITE*/
+
+/*HOME*/
+#home{
+    height: auto;
+}
+
+#home img{
+    height: auto;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*HOME*/
+
+/*RESPONSIVIDADE*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 574px){
+    .valores{
+        font-size: 30px !important;
+        position: relative;
+        margin-right: -15px;
+    }
+    
+    .dados li{
+        font-size: 9px !important;
+        padding-top: 21px !important; 
+        padding-bottom: 10px !important;
+        width: 100% !important;
+        position: relative;
+        margin-left: -5px;
+    }    
+
+
+    .carousel-indicators{
+        width: 40% !important;
+    }
+
+    .brasil{
+        transform: translateY(10px) !important;
+    }
+    
+    .lista{
+        transform: translateY(-10px) !important;
+    }
+
+    #porque img{
+        display: none;
+    }
+
+    .navbar-brand img{
+        width: 150px;
+    }
+
+    .fa-instagram{
+        margin-right: 10px;
+    }
+
+    #porque h1{
+        font-size: 30px !important;
+    }
+
+    .textos{
+        font-size: 10px !important;
+    }
+
+    .numeros{
+        font-size: 25px !important;
+    }
+
+    .form{
+        justify-content: center;
+        margin-top: 20px !important;
+    }
+
+    .form h1{
+        font-size: 20px;
+        text-align: center !important; 
+    }
+
+    .form button{
+        float: none !important;
+    }
+
+    .baixar h1{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width:574.1px) and (max-width:600px){
+    .valores{
+        font-size: 30px !important;
+    }
+    
+    .dados li{
+        font-size: 12px !important;
+        padding-top: 9px !important; 
+        padding-bottom: 5px !important;
+        width: 100% !important;
+    }    
+
+    .brasil{
+        display: none;
+    }
+    
+    .lista{
+        transform: translateY(10px) !important;
+    }
+
+    .fa-instagram{
+        margin-right: 10px;
+    }
+
+    .textos{
+        font-size: 10px !important;
+    }
+
+    .numeros{
+        font-size: 20px !important;
+    }
+
+    #porque h1{
+        font-size: 25px !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767.98px){
+    .valores{
+        font-size: 30px !important;
+    }
+    
+    .dados li{
+        font-size: 12px !important;
+        padding-top: 11px !important; 
+        padding-bottom: 2px !important;
+        width: 100% !important;
+    }    
+    
+    .brasil{
+        display: none;
+    }
+    
+    .lista{
+        transform: translateY(10px) !important;
+    }
+    
+
+    #carrossel li{
+        padding: 1px;
+    }
+
+
+    .navbar-brand img{
+        width: 150px;
+    }
+    .fa-instagram{
+        margin-right: 10px;
+    }
+    body, html{
+        background-position-y: 20px;
+        
+    }
+
+    #porque h1{
+        font-size: 30px !important;
+        margin-top: -20px;
+    }
+    
+    .textos{
+        font-weight: 700 !important;
+        font-size: 8px !important;
+    }
+
+    .numeros{
+        font-size: 20px !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .carousel-indicators{
+        width: 20px;
+    }
+
+
+    #porque h1{
+        font-size: 40px !important;
+        margin-top: -20px;
+    }
+
+    .textos{
+        font-weight: 700 !important;
+        font-size: 10px !important;
+    }
+
+    .numeros{
+        font-size: 40px !important;
+    }
+
+    .brasil{
+        display: none;
+    }
+    
+    .lista{
+        transform: translateY(10px) !important;
+    }
+
+    .dados li{
+        width: 100% !important;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    #carrossel h2{
+        margin-top: -10px;
+    }
+
+    .numeros{
+        font-size: 50px !important;
+    }
+
+    .textos{
+        font-size: 15px !important;
+    }
+
+    .brasil{
+        display: none;
+    }
+    
+    .dados li{
+        padding-top: 15px !important; 
+        padding-bottom: 27px !important;
+        width: 100% !important;
+    }   
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) {
+    #carrossel h2{
+        margin-top: -35px;
+        margin-bottom: 5px;
+        font-size: 120%;
+    }
+
+    #carrossel img{
+        width: 100%;
+        border-radius: 24px;
+    }
+
+    .carousel-control-next{
+        margin-right: -40px;
+    }
+
+    .carousel-control-prev{
+        margin-left: -40px;
+    }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 510px) 
+and (max-device-width : 1024px) {
+    #carrossel h2{
+        margin-top: -30px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    #carrossel img{
+        width: 80%;
+    }
+
+    #carrossel li{
+        padding: -2px;
+    }
+
+    .carousel-control-next{
+        margin-right: -30px;
+    }
+
+    .carousel-control-prev{
+        margin-left: -30px;
+    }
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    .titulo-carrossel{
+        font-size: 45px;
+    }
+
+
+}
+/*RESPONSIVIDADE*/
+
+/*NAVBAR*/
+.container-fluid{
+    width: 80%;
+}
+
+.navegacao{
+    background-color: #E5253A;
+}
+
+.fa-instagram{
+    font-size: 40px;
+}
+
+#instabutton a:hover{
+    color: #d7efff;
+}
+
+#instabutton{
+    margin-right: -20px;
+}
+
+#whatsbutton{
+    margin-top: 7px;
+}
+
+#whatsbutton a{
+    background-color: #280202;
+    border-radius: 8px;
+    border: none;
+    color: bisque;
+    font-size: 26px;
+    padding-top: 3.3px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#whatsbutton a:hover{
+    color: #d7efff;
+}
+/*NAVBAR*/
+
+/*CARROSSEL*/
+#carrossel{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    background: url(imagens/porqueanunciar.png);
+}
+
+.carousel-inner img{
+    width: 80%;
+    border-radius: 45px;
+    margin: auto;
+}
+
+.titulo-carrossel{
+    color: #FFE7D7;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.carousel-indicators{
+    border-radius: 15px;
+    width: 10%;
+    margin: auto;
+    margin-top: -40px;
+}
+
+.carousel-indicators li{
+    background-color: #FFE7D7;
+    margin-bottom: -2.5rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators li.active{
+    background-color: #E5253A;
+}
+
+
+.controles-carrossel{
+    background-color: #E5253A;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+/*CARROSSEL*/
+
+#porque{
+    background-image: url(imagens/porquefundo.png);
+}
+
+.motivos{
+    justify-content: center;
+}
+
+.motivos img{
+    width: 100%;
+}
+
+#porque h1{
+    padding-top: 25px;
+    font-size: 50px;
+    text-align: center;
+    color: #280202;
+}
+
+.numeros{
+    font-size: 60px;
+    color: #FFE7D7;
+    margin-left: 60px;
+}
+
+.numeros a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.textos{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFE7D7;
+    margin-left: 10px;
+}
+
+.brasil{
+    transform: translateY(70px);
+}
+
+.lista{
+    transform: translateY(100px);
+}
+
+.textos a{
+    height: 150%;
+}
+
+/*
+.li1::marker{
+    content: '+5';
+}
+
+.li2::marker{
+    content: '14';
+}
+
+.li3::marker{
+    content: '+20';
+}
+
+.li4::marker{
+    content: '+1000';
+}
+*/
+
+
+#formulario{
+    background-image: url(imagens/anunciefundo.png);
+    border: 2px solid #190000;
+}
+
+.form{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.form input{
+    background: none;
+    color: #FFE7D7;
+    border-color: #FFE7D7;
+}
+
+
+#infouser::placeholder{
+    color: #FFE7D7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+}
+
+#infouser:focus{
+    color: #FFE7D7;
+    text-transform: inherit;
+}
+
+.baixar{
+    color: #280202;
+    margin-bottom: 60px;
+}
+
+.emailmedia input{
+    background: none;
+    border-color: #280202;
+    color: #280202;
+}
+
+#midiaemail::placeholder{
+    color: #280202;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+}
+
+
+footer{
+    background: url(imagens/anunciefundo.png);
+    position: absolute;
+    bottom: 25;
+    width: 100%;
+    height: 7.1%;
+}
+
+
+#footer i{
+    color: #FFE7D7;
+}
+
+#footer i:hover{
+    color: #d7efff;
+}
+
+#footer a:hover{
+    color: #d7efff;
+}
+
+#footer .nav-link{
+    background: none;
+    border-radius: 8px;
+    border: 3px solid bisque;
+    color: bisque;
+    font-size: 26px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 8px;
+}
+
+#footer .fa-instagram{
+    margin-top: 2.5px;
+    font-size: 30px;
+}
+
+#footer .whatsbutton{
+    color: red;
+}
+
+.valores{
+    font-size: 60px;
+    color: #FFE7D7;
+}
+
+.dados li{
+    width: 155%;
+    font-size: 20px;
+    padding-top: 41px;
+    padding-bottom: 18px;
+    color: #FFE7D7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
